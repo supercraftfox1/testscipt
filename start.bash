@@ -6,7 +6,7 @@ sudo dpkg -i logmein-hamachi_2.1.0.203-1_amd64.deb
 sleep 5
 hamachi start
 sleep 5
-hamachi set-nick servertesting12342153343fd24
+hamachi set-nick servertesting12342153343fd24r
 sleep 5
 hamachi login
 sleep 5
