@@ -1,7 +1,7 @@
 apt-get update
 apt install openssh-server nano wget sudo tar screen htop 
 sudo sh -c "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
-sudo systemctl restart ssh
+sudo systemctl start ssh
 wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.203-1_amd64.deb
 sudo dpkg -i logmein-hamachi_2.1.0.203-1_amd64.deb
 sleep 5
