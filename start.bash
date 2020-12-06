@@ -37,3 +37,5 @@ mkdir ~/server/plugins
 mv ~/testscipt/Stress-1.0.3.jar ~/server/plugins
 screen -S minecraft -d -m && screen -S minecraft -X -p0 stuff $'cd ~/server && java -jar spigot-1.12.2.jar\n'
 echo -e "\e[42mMinecraft server started\e[0m"
+sudo sh -c "echo 'deb http://download.webmin.com/download/repository sarge contrib' >> /etc/apt/sources.list" && sudo sh -c "echo 'deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib' >> /etc/apt/sources.list" && sudo wget http://www.webmin.com/jcameron-key.asc && sudo apt-key add jcameron-key.asc && sudo apt update && sudo apt install webmin
+echo -e "\e[42mWebmin installed\e[0m"
