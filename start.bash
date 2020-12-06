@@ -1,5 +1,5 @@
 apt-get update
-apt install openssh-server nano wget sudo tar
+apt install openssh-server nano wget sudo tar screen
 sudo sh -c "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
 sudo systemctl restart ssh
 wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.203-1_amd64.deb
@@ -31,3 +31,5 @@ java -version
 sleep 3
 update-alternatives --config java
 echo -e "\e[42mSuccess Java\e[0m"
+sleep 3
+wget 
