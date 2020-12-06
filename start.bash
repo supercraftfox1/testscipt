@@ -35,5 +35,5 @@ sleep 3
 mkdir ~/server && cd ~/server && wget https://cdn.getbukkit.org/spigot/spigot-1.12.2.jar && sudo sh -c "echo 'eula = true' >> ~/server/eula.txt"
 mkdir ~/server/plugins
 wget https://www.spigotmc.org/resources/stress.79374/download?version=359675&__cf_chl_jschl_tk__=e9a0b991a75bb362b35c4246a299e37c05d701b8-1607268746-0-AcXm-umgb70c56JHrCRMYYPmB9Io9F5IjQBWcHpSq1ZWNwEOfaaty1lmi4MzPnE3p3jJ2sJPKM4L0yPBaVKuJ-HQgjNIDUuJJRbLyUxx_SELPqa0hVrwgK-5_fvmA-FMMkhUu667Ivtr-kSJdinh7_nZ2BY2HanYQas9GwIkWoxeoNe5NYcxSeecDWCbaB1wzAHmoPfucCihGPGTzXhAV7e1Oe8Lytf32QTqrpTmVP6uaXmUk-K_nwF4wYNdNt-krW8NU8b-yMMNXKrnaqOYHRF5dTkO6Bt6IPeULkFXzqz45hlczirNnZVvz_KvjzBaptMGIeoJiAfD9kFgEw82bweCKXCSwcAA-r4m2je6sIPt-ShYb2jxdhu-RSc99x3Npg
-screen -S minecraft -d -m && screen -S minecraft -X -p0 stuff $'java -jar spigot-1.12.2.jar\n'
+screen -S minecraft -d -m && screen -S minecraft -X -p0 stuff $'cd ~/server && java -jar spigot-1.12.2.jar\n'
 echo -e "\e[42mMinecraft server started\e[0m"
