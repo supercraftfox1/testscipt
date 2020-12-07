@@ -12,7 +12,7 @@ hamachi set-nick servertesting12342153343fd24rrsv
 sleep 5
 hamachi login
 sleep 5
-hamachi create server-testing-12342153f4fd4g2vef 1232
+hamachi create server-testing-realmachiggonhztesting 1232
 sleep 5
 hamachi go-online
 sleep 5
